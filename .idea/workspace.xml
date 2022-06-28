@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad14a282-d7d5-4bae-a1f8-58d52990026d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjekts/Footer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjekts/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjekts/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSeven/SwagLabTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +49,18 @@
       <recent name="C:\Users\A\Desktop\Java\RutaJurjaneTestAutomation" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstSeleniumTest">
-    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SwagLabTest.testFooterCopyRightText">
+    <configuration name="SwagLabTest.testErrorMessageWithPOM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RutaJurjaneTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.dalisanasTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RutaJurjaneTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="dalisanasTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classroomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
+      <option name="METHOD_NAME" value="testErrorMessageWithPOM" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -78,11 +68,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSum" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwagLabTest.testErrorMessageWithPOMarMetodem" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RutaJurjaneTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="testSum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classroomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
+      <option name="METHOD_NAME" value="testErrorMessageWithPOMarMetodem" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,22 +86,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwagLabTest.testFooterCopyRightText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RutaJurjaneTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstSeleniumTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classroomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
+      <option name="METHOD_NAME" value="testFooterCopyRightText" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstSeleniumTest.testPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwagLabTest.testSamplePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RutaJurjaneTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstSeleniumTest" />
-      <option name="METHOD_NAME" value="testPageTitle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classroomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
+      <option name="METHOD_NAME" value="testSamplePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagLabTest.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RutaJurjaneTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classroomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstSeleniumTest" />
-        <item itemvalue="TestNG.FirstSeleniumTest.testPageTitle" />
-        <item itemvalue="TestNG.CalculatorTest" />
-        <item itemvalue="TestNG.CalculatorTest.dalisanasTests" />
-        <item itemvalue="TestNG.CalculatorTest.testSum" />
+        <item itemvalue="TestNG.SwagLabTest.testFooterCopyRightText" />
+        <item itemvalue="TestNG.SwagLabTest.testErrorMessageWithPOMarMetodem" />
+        <item itemvalue="TestNG.SwagLabTest.testErrorMessageWithPOM" />
+        <item itemvalue="TestNG.SwagLabTest.testSamplePage" />
+        <item itemvalue="TestNG.SwagLabTest.testSuccessfulLogin" />
       </list>
     </recent_temporary>
   </component>

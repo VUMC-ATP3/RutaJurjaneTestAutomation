@@ -14,8 +14,8 @@ public class FirstSeleniumTest {
         chromeParluks.navigate().to("https://www.lu.lv/");//pasakām uz kuru lapu aiziet
         chromeParluks.manage().window().maximize();//lai atver pilnu logu
         String expectedTitle="Latvijas Universitāte";
-        String axtualeTitle= chromeParluks.getTitle();
-        Assert.assertEquals(axtualeTitle,expectedTitle);
+        String axtualeTitle= chromeParluks.getTitle();//liekam atrast title
+        Assert.assertEquals(axtualeTitle,expectedTitle);//liekam saLĪDZINĀT
         chromeParluks.quit();
 
 
