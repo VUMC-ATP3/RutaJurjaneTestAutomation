@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad14a282-d7d5-4bae-a1f8-58d52990026d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjekts/Footer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjekts/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjekts/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSeven/SwagLabTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/MavenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/TitleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +47,42 @@
       <recent name="C:\Users\A\Desktop\Java\RutaJurjaneTestAutomation" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SwagLabTest.testFooterCopyRightText">
-    <configuration name="SwagLabTest.testErrorMessageWithPOM" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MavenTest">
+    <configuration name="MavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.MavenTest" />
       <module name="RutaJurjaneTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classroomSeven" />
-      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
-      <option name="METHOD_NAME" value="testErrorMessageWithPOM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RutaJurjaneTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.dalisanasTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RutaJurjaneTestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="dalisanasTests" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -68,71 +90,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagLabTest.testErrorMessageWithPOMarMetodem" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RutaJurjaneTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classroomSeven" />
-      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
-      <option name="METHOD_NAME" value="testErrorMessageWithPOMarMetodem" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.TitleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagLabTest.testFooterCopyRightText" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TitleTest.testTitleDelfi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RutaJurjaneTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classroomSeven" />
-      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
-      <option name="METHOD_NAME" value="testFooterCopyRightText" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwagLabTest.testSamplePage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RutaJurjaneTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classroomSeven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="classroomSeven" />
-      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
-      <option name="METHOD_NAME" value="testSamplePage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwagLabTest.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RutaJurjaneTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classroomSeven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="classroomSeven" />
-      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabTest" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.TitleTest" />
+      <option name="METHOD_NAME" value="testTitleDelfi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SwagLabTest.testFooterCopyRightText" />
-        <item itemvalue="TestNG.SwagLabTest.testErrorMessageWithPOMarMetodem" />
-        <item itemvalue="TestNG.SwagLabTest.testErrorMessageWithPOM" />
-        <item itemvalue="TestNG.SwagLabTest.testSamplePage" />
-        <item itemvalue="TestNG.SwagLabTest.testSuccessfulLogin" />
+        <item itemvalue="Application.MavenTest" />
+        <item itemvalue="TestNG.TitleTest.testTitleDelfi" />
+        <item itemvalue="TestNG.TitleTest" />
+        <item itemvalue="TestNG.CalculatorTest" />
+        <item itemvalue="TestNG.CalculatorTest.dalisanasTests" />
       </list>
     </recent_temporary>
   </component>
