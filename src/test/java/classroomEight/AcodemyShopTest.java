@@ -27,15 +27,13 @@ public class AcodemyShopTest {
 
     @BeforeMethod
     public void openBrowser() throws MalformedURLException {
-//        ChromeOptions chromeOptions = new ChromeOptions();
-        EdgeOptions options=new EdgeOptions();
-        driver = new RemoteWebDriver(new URL("http://192.168.8.103:4444"),options);
-
-
-        driver = new ChromeDriver();
+        ChromeOptions chromeOptions = new ChromeOptions();
+//        EdgeOptions options=new EdgeOptions();
+        driver = new RemoteWebDriver(new URL("http://192.168.8.103:4444"),chromeOptions);
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
     }
 
     @Test
@@ -51,6 +49,7 @@ public class AcodemyShopTest {
         System.out.println(driver.getTitle());
         driver.switchTo().window(tabs.get(0));
         System.out.println(driver.getTitle());
+        ;
     }
 
     @Test //lai varētu skrollēt lapu uz leju
