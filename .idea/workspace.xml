@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad14a282-d7d5-4bae-a1f8-58d52990026d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/MyStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/SouceLabsStepDefinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/MyFirstCucumberTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ScenarioOutlineExample.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/SouceLabLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/SQLConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classroomEight/AcodemyShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classroomEight/AcodemyShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +33,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/A/Desktop/Java/RutaJurjaneTestAutomation",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/A/Desktop/Java/RutaJurjaneTestAutomation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\A\Desktop\Java\RutaJurjaneTestAutomation" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User sees correct page title">
-    <configuration name="Feature: ScenarioOutlineExample" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ScenarioOutlineExample.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+  <component name="RunManager" selected="Application.SQLConnect">
+    <configuration name="SQLConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilities.SQLConnect" />
       <module name="RutaJurjaneTestAutomation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: ScenarioOutlineExample" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,15 +63,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User sees correct error message if creditions are wrong" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: ScenarioOutlineExample" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SouceLabLogin.feature" />
-      <option name="GLUE" value="steps" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ScenarioOutlineExample.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RutaJurjaneTestAutomation" />
-      <option name="NAME_FILTER" value="^User sees correct error message if creditions are wrong$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sees correct error message if creditions are wrong$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User sees correct error message if creditions are wrong" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ScenarioOutlineExample" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SQLConnect" />
         <item itemvalue="Cucumber Java.Scenario: User sees correct page title" />
         <item itemvalue="Cucumber Java.Scenario: User sees correct error message" />
         <item itemvalue="Cucumber Java.Feature: ScenarioOutlineExample" />
         <item itemvalue="Cucumber Java.Scenario: User sees correct error message if password and username is not provided (1)" />
-        <item itemvalue="Cucumber Java.Scenario: User sees correct error message if creditions are wrong" />
       </list>
     </recent_temporary>
   </component>
