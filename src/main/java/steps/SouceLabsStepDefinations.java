@@ -10,11 +10,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import pageObjectsHomework.InventoryPage;
-import pageObjekts.LoginPage;
+import pageObjectsHomework.LoginPage;
+
 
 public class SouceLabsStepDefinations {
     WebDriver driver;
     LoginPage loginPage=new LoginPage(driver);
+    InventoryPage inventoryPage=new InventoryPage(driver);
 
     @Before("@parluks")
     public void setUp(){
@@ -22,6 +24,7 @@ public class SouceLabsStepDefinations {
 //        driver.manage().timeouts().implicitlyWait(28);
         driver.manage().window().maximize();
         loginPage=new LoginPage(driver);
+        InventoryPage inventoryPage=new InventoryPage(driver);
     }
 
     @After("@parluks")
@@ -36,13 +39,11 @@ public class SouceLabsStepDefinations {
     @Then("user sees page title {string}")
     public void user_sees_page_title(String pageTitle) {
         Assert.assertEquals(driver.getTitle(),pageTitle);
-
-
     }
     @When("user enters username {string} and password {string}")
     public void user_enters_username_and_password(String username, String password) {
-        loginPage.getUsernameField().sendKeys(username);
-        loginPage.getPasswordField().sendKeys(password);
+        loginPage.getUserInputField().sendKeys(username);
+        loginPage.getPasswordInputField().sendKeys(password);
     }
 
     @And("user clicks login button")
@@ -53,7 +54,6 @@ public class SouceLabsStepDefinations {
 
     @Then("user is successfully logged in")
     public void user_is_successfully_logged_in() {
-        InventoryPage inventoryPage=new InventoryPage(driver);
         Assert.assertEquals(inventoryPage.getPageTitle().getText(),"PRODUCTS");
 
     }
